@@ -3,6 +3,8 @@ pipeline{
 	 stages{
 	 	stage('build'){
 	 		steps{
+	 			echo 'hello world'
+	 			sh 'java --version'
 	  			sh 'mvn --version'
 	 		}
 	 	}
